@@ -9,7 +9,7 @@ function exercise4() {
   //
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
-  for (let number = 1; number < 12; number++) {
+  for (let number = 0; number < 13; number++) {
     console.log(number*number);
   }
   // -----------------------------------------------------------------
