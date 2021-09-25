@@ -27,6 +27,5 @@ for (let number = 0; number < 101; number++) {
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-6.1
-exercise-6.1();
 
 module.exports = exercise6_1;
