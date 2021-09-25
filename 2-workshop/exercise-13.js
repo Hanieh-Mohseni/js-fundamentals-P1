@@ -20,6 +20,18 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  var x=0;
+  var y=1;
+  var z=1;
+  var temp;
+  for (let number = 0; number < 47; number++) {
+    temp=y+z;
+    x=y;
+    y=z;
+    z=temp;
+    
+  }
+  console.log(z);
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
