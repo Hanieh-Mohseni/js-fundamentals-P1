@@ -16,15 +16,11 @@ function exercise10() {
   var st="#";
   for (let x = 1; x < 8; x++) {
     //console.log('\n');    
-    //for (let y = 1; y < x; y++) {
+    
       console.log(st);
 
       st=st+"#";
-      
-      
-   // }
-    
-    
+       
   }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
