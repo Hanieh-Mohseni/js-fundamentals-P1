@@ -15,6 +15,25 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  
+  var st1= "#_#_#_#_";
+  var st2= "_#_#_#_#";
+  var st;
+
+  for (let x = 1; x < 9; x++) {
+
+    if (x%2==1) {
+      console.log(st1);
+
+    }
+    if (x%2==0) {
+      console.log(st2);
+
+    }
+    
+
+    
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
