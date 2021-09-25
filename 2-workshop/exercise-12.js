@@ -15,6 +15,24 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  var counter;
+  for (let x = 2; x <= 200; x++) 
+  {
+    counter=2;
+    for (let y = 2; y <= Math.floor(x/2); y++) 
+    {
+      if (x%y==0) 
+      {
+        counter=+1;
+      }  
+    }
+    if (counter==2)
+     {
+      console.log(x);
+     }
+
+  }
+  
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
