@@ -28,6 +28,24 @@ function exercise9() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let number = 1; number < 101; number++) {
+
+    
+    if ((number%5==0) && (number%3==0)) {
+      console.log("FizzBuzz");
+    }
+    if ((number%3==0) && (number%5) ) {
+      console.log("Fizz");
+    }
+    if ((number%5==0)&& (number%3) ) {
+      console.log("Buzz");
+    }
+
+
+    if ((number%3)&&number%5) {
+      console.log(number);
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
